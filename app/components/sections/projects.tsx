@@ -90,7 +90,7 @@ const projects: Project[] = [
     technologies: ["Gen AI", "React", "Typescript", "Tailwind"],
     image: fortuneMessage,
     links: {
-      github: "https://fortune-message.vercel.app/",
+      github: "https://github.com/GuiPM001/fortune-message",
       demo: "https://fortune-message.vercel.app/",
     },
   },
@@ -140,7 +140,7 @@ export default function Projects() {
 
                 {p.links.demo && (
                   <a
-                    href={p.links.github}
+                    href={p.links.demo}
                     target="_blank"
                     className="flex flex-row gap-1 items-center rounded-lg hover:bg-sky-600/90 hover:text-white duration-200 px-2"
                   >
