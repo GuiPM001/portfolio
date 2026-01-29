@@ -1,9 +1,9 @@
 import photo from "@/app/assets/photo.jpg";
 import { GITHUB_URL, LINKEDIN_URL } from "@/app/const";
 import Image from "next/image";
-import { LuDownload, LuGithub, LuLinkedin, LuMail } from "react-icons/lu";
+import { LuDownload, LuGithub, LuLinkedin } from "react-icons/lu";
 
-export default function hero() {
+export default function Hero() {
   return (
     <div id="hero" className="h-screen w-full bg-checkered-dark">
       <div className="h-screen md:w-full px-8 md:px-0 flex flex-col justify-center items-center bg-radial-[at_50%_40%] from-60% from-transparent to-80% to-background">
@@ -13,7 +13,7 @@ export default function hero() {
             <Image
               src={photo}
               alt="Profile picture"
-              className="w-48 h-48 mb-10 md:mb-0 rounded-full border-2 p-0.5 border-sky-600/90"
+              className="w-48 h-48 object-cover mb-10 md:mb-0 rounded-full border-2 p-0.5 border-sky-600/90"
             />
             <div className="flex flex-col items self-center ml-4 text-gray-400">
               <span className="text-xl ml-1">Hi, I'm</span>
