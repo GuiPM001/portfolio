@@ -56,7 +56,7 @@ const techStacks: TechStack[] = [
 
 export default function About() {
   return (
-    <div className="w-full px-8 md:w-2/3 md:px-0 xl:w-1/2 pt-32 justify-self-center">
+    <div id="about" className="w-full px-8 md:w-2/3 md:px-0 xl:w-1/2 pt-24 justify-self-center">
       <h1 className="text-3xl font-semibold mb-6">About</h1>
 
       <p>

@@ -5,7 +5,7 @@ import { LuDownload, LuGithub, LuLinkedin, LuMail } from "react-icons/lu";
 
 export default function hero() {
   return (
-    <div className="h-screen w-full bg-checkered-dark">
+    <div id="hero" className="h-screen w-full bg-checkered-dark">
       <div className="h-screen md:w-full px-8 md:px-0 flex flex-col justify-center items-center bg-radial-[at_50%_40%] from-60% from-transparent to-80% to-background">
         <div className="justify-self-center mt-10">
           {/* PROFILE */}

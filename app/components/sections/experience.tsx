@@ -44,7 +44,7 @@ const experiences: Experience[] = [
 
 export default function Experience() {
   return (
-    <div className="w-full px-8 md:w-2/3 md:px-0 xl:w-1/2 pt-32 justify-self-center">
+    <div className="w-full px-8 md:w-2/3 md:px-0 xl:w-1/2 pt-24 justify-self-center">
       <h1 className="text-3xl font-semibold mb-6">Experience</h1>
 
       <div className="flex flex-col md:gap-4 relative">

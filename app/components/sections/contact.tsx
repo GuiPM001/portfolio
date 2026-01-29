@@ -2,7 +2,7 @@ import { GITHUB_URL, LINKEDIN_URL } from "@/app/const";
 
 export default function Contact() {
   return (
-    <div className="w-full md:w-2/3 xl:w-1/2 h-60 mt-32 justify-self-center rounded-t-4xl contact-section p-10 flex flex-row justify-between text-gray-300">
+    <div id="contact" className="w-full md:w-2/3 xl:w-1/2 h-60 mt-32 justify-self-center rounded-t-4xl contact-section p-10 flex flex-row justify-between text-gray-300">
       <div className="flex flex-col">
         <h1 className="text-3xl md:text-5xl font-bold text-white font-sans">
           Guilherme <br /> Pimentel
