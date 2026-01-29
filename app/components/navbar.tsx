@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Navbar() {
   return (
     <header className="fixed z-50 left-1/2 top-5 -translate-x-1/2 w-[90%] md:w-full">
